@@ -14,18 +14,8 @@ class Hobbit {
 	}
 celebrateBirthday(){
 	this.age++;
-	// this.adult = (this.age < 33) ? false : true;
-	// this.adult = (this.age > 32) ? true : false;
-	if (this.age < 33){
-		this.adult = false;
-	}
-	if (this.age > 32){
-		this.adult = true;
-	}
-	if (this.age > 100){
-		this.old = true;
-	}
-
+	this.adult = (this.age < 33) ? false : true;
+	this.adult = (this.age > 32) ? true : false;
 	}
 
 }
